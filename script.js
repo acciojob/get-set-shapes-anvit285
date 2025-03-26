@@ -1,5 +1,4 @@
-//complete this code
-
+// your code here
 class Rectangle {
   constructor(width, height) {
     if (width <= 0 || height <= 0) {
@@ -21,10 +20,9 @@ class Rectangle {
     return this._width * this._height;
   }
 }
-	
-}
 
-class Square extends Animal {
+
+class Square extends Rectangle {
 constructor(side) {
     if (side <= 0) {
       throw new Error("Side must be a positive integer.");
